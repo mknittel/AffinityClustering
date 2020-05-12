@@ -1,9 +1,9 @@
 import sys
 import argparse
 import findspark
-findspark.init('/home/ubuntu/spark-2.1.1-bin-hadoop2.7')
+findspark.init('/usr/local/spark')
 from pyspark import SparkContext
-from basic import Edge, GroupedEdge
+#from basic import Edge, GroupedEdge
 import math
 import random
 import simplejson

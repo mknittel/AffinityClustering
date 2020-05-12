@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm out.txt
+
+python dense-graphs/affinity.py --inp_path ./data.txt --out_path ./out.txt --k 10
